@@ -17,7 +17,7 @@
 
 #ifndef BATTLE_PET_H
 #define BATTLE_PET_H
-
+#include <string>
 #include "BattlePetMgr.h"
 #include "Common.h"
 #include "Object.h"
