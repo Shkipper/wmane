@@ -396,7 +396,8 @@ private:
     uint64 m_id;
     uint16 m_species;
     uint8 m_family;
-    std::string m_nickname;
+    uint8 m_breed;
+    
     uint32 m_timestamp;
     uint8 m_level;
     uint16 m_xp;
@@ -405,7 +406,7 @@ private:
     uint16 m_power;
     uint16 m_speed;
     uint8 m_quality;
-    uint8 m_breed;
+    std::string m_nickname;
     uint16 m_flags;
     uint8 m_dbState;
 
